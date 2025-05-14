@@ -31,35 +31,6 @@ conversor/
 
 ---
 
-## 🚀 Como Executar
-
-### Pré-requisitos
-
-- Java 11 ou superior
-- [Gson](https://github.com/google/gson) (biblioteca para manipular JSON)
-
-### Passos
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/conversor-moedas-java.git
-   cd conversor-moedas-java
-   ```
-
-2. Compile o projeto:
-   ```bash
-   javac -cp ".:gson-2.8.9.jar" conversor/**/*.java
-   ```
-
-3. Execute o programa:
-   ```bash
-   java -cp ".:gson-2.8.9.jar" conversor.service.ConversorApplication
-   ```
-
-> Certifique-se de que o arquivo `gson-2.8.9.jar` esteja no mesmo diretório ou referencie o caminho correto no classpath.
-
----
-
 ## 🔐 API utilizada
 
 - **ExchangeRate API**  
@@ -106,7 +77,7 @@ Obrigado por usar o conversor de moedas!
 
 ## 👨‍💻 Autor
 
-Desenvolvido por [Seu Nome](https://github.com/seu-usuario)
+Desenvolvido por [Matheus M Almeida](https://github.com/seu-usuario)
 
 ---
 
